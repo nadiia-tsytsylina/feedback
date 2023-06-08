@@ -13,13 +13,13 @@ export default function App() {
   const onClick = option => {
     switch (option) {
       case 'good':
-        setGood(prevState => prevState + 1);
+        setGood(state => state + 1);
         break;
       case 'neutral':
-        setNeutral(prevState => prevState + 1);
+        setNeutral(state => state + 1);
         break;
       case 'bad':
-        setBad(prevState => prevState + 1);
+        setBad(state => state + 1);
         break;
 
       default:
